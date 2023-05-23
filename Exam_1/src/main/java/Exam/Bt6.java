@@ -1,4 +1,4 @@
-
+package Exam;
 // Hãy liệt kê các giá trị trong mảng mà thỏa điều kiện: lớn hơn giá trị tuyệt đối của giá trị đứng liền sau nó
 
 
@@ -24,8 +24,5 @@ public class Bt6 {
         } else {
             return number * -1;
         }
-
-
     }
-
 }

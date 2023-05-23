@@ -1,4 +1,4 @@
-
+package Exam;
 // Đảo ngược mảng ban đầu
 
 import java.util.Arrays;
@@ -11,7 +11,6 @@ public class Bt4 {
         System.out.println("Mảng sau khi đảo ngược vị trí là:");
         reverseArray(numbers);
     }
-
 
     public static void reverseArray(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {

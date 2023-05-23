@@ -1,4 +1,4 @@
-
+package Exam;
 // Đưa các số chia hết cho 3 về đầu mảng
 
 import java.util.Arrays;

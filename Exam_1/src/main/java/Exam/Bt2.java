@@ -1,4 +1,4 @@
-
+package Exam;
 //Tính trung bình cộng các số dương trong mảng 1 chiều các số thực
 
 import java.util.Arrays;

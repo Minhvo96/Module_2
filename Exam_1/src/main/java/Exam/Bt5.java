@@ -1,4 +1,4 @@
-
+package Exam;
 // Hãy liệt kê các số trong mảng 1 chiều các số thực thuộc đoạn [x, y] cho trước
 
 import java.util.Arrays;
