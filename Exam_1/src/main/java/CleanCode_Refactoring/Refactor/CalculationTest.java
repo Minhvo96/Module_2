@@ -30,5 +30,4 @@ public class CalculationTest {
         assertEquals(2, result);
     }
 
-
 }

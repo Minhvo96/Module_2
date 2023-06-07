@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 // Tính tổng các giá trị lớn hơn giá trị đứng liền trước nó trong mảng 1 chiều các số thực
 public class Bt1 {
-
     public static void main(String[] args) {
         int[] numbers = {5, 6, 7, 1, 2, 8, 0, 4};
         System.out.println("Mảng đang có các phần tử là");
