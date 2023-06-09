@@ -1,6 +1,6 @@
-package CaseStudy.One;
+package Demo;
 
-import java.util.Date;
+import java.text.SimpleDateFormat;
 
 public class Customer {
     private long id;
@@ -48,5 +48,12 @@ public class Customer {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    @Override
+    public String toString() {
+        return
+                id + "," + name + "," + address + "," + telephone;
+
     }
 }

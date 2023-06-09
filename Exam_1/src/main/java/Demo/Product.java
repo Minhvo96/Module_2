@@ -1,4 +1,4 @@
-package CaseStudy.One;
+package Demo;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

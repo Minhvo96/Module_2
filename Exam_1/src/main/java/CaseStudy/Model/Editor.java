@@ -1,4 +1,4 @@
-package CaseStudy.NewsManager;
+package CaseStudy.Model;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -13,7 +13,6 @@ public class Editor {
     private long view;
 
     public Editor() {
-
     }
 
     public Editor(long id, String category, String title, String author, String content, Date createAt, long view) {
@@ -84,7 +83,6 @@ public class Editor {
 
     @Override
     public String toString() {
-        //5284,Iphone XXX,Dep lam,23000.0,2023-06-05 17:30:25
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         return String.format("%s;%s;%s;%s;%s;%s;%s\n", this.id, this.category, this.title, this.author, this.content, simpleDateFormat.format(this.createAt), this.getView());
     }
