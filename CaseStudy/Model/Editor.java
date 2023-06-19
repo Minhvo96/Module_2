@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Editor {
     private long id;
-    private String category;
+    private ECategory eCategory;
     private String title;
     private String author;
     private String content;
@@ -15,9 +15,9 @@ public class Editor {
     public Editor() {
     }
 
-    public Editor(long id, String category, String title, String author, String content, Date createAt, long view) {
+    public Editor(long id, ECategory eCategory, long view, String title, String author, String content, Date createAt) {
         this.id = id;
-        this.category = category;
+        this.eCategory = eCategory;
         this.title = title;
         this.author = author;
         this.content = content;
@@ -33,12 +33,12 @@ public class Editor {
         this.id = id;
     }
 
-    public String getCategory() {
-        return category;
+    public ECategory geteCategory() {
+        return eCategory;
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void seteCategory(ECategory eCategory) {
+        this.eCategory = eCategory;
     }
 
     public String getTitle() {
@@ -77,13 +77,9 @@ public class Editor {
         return view;
     }
 
-    public void setView(long view) {
-        this.view = view;
-    }
-
     @Override
     public String toString() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-        return String.format("%s;%s;%s;%s;%s;%s;%s\n", this.id, this.category, this.title, this.author, this.content, simpleDateFormat.format(this.createAt), this.getView());
+        return String.format("%s;%s;%s;%s;%s;%s;%s\n", this.id, this.eCategory.getName(), this.view, this.title, this.author, this.content, simpleDateFormat.format(this.createAt));
     }
 }

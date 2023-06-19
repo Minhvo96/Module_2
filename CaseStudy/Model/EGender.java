@@ -1,12 +1,12 @@
 package CaseStudy.Model;
 
-public enum ECollaboratorType {
-    Intern(1, "Intern"), Collaborator(2, "Collaborator"), Reporter(3, "Reporter");
+public enum EGender {
+    Nam(1, "Nam"), Nữ(2, "Nữ");
 
     private long id;
     private String name;
 
-    ECollaboratorType(long id, String name) {
+    EGender(long id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -27,8 +27,8 @@ public enum ECollaboratorType {
         this.name = name;
     }
 
-    public static ECollaboratorType findById(long id) {
-        for (ECollaboratorType e : ECollaboratorType.values()) {
+    public static EGender findById(long id) {
+        for (EGender e : EGender.values()) {
             if (e.getId() == id) {
                 return e;
             }
@@ -36,14 +36,12 @@ public enum ECollaboratorType {
         return null;
     }
 
-
-    public static ECollaboratorType find(String type) {
-        for (ECollaboratorType e : ECollaboratorType.values()) {
+    public static EGender find(String type) {
+        for (EGender e : EGender.values()) {
             if (e.toString().equals(type)) {
                 return e;
             }
         }
         return null;
     }
-
 }

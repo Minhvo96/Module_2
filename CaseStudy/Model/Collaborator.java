@@ -1,22 +1,28 @@
 package CaseStudy.Model;
 
+import CaseStudy.Utils.DateUtils;
+
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Collaborator {
     private long id;
     private String name;
-    private String address;
+    private LocalDate dob;
     private String phone;
     private ECollaboratorType eCollaboratorType;
+    private EGender eGender;
 
     public Collaborator() {
     }
 
-    public Collaborator(long id, String name, String address, String phone) {
+    public Collaborator(long id, String name, LocalDate dob, String phone, EGender eGender, ECollaboratorType eCollaboratorType) {
         this.id = id;
         this.name = name;
-        this.address = address;
+        this.dob = dob;
         this.phone = phone;
+        this.eCollaboratorType = eCollaboratorType;
+        this.eGender = eGender;
     }
 
     public long getId() {
@@ -35,14 +41,6 @@ public class Collaborator {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public String getPhone() {
         return phone;
     }
@@ -59,8 +57,24 @@ public class Collaborator {
         this.eCollaboratorType = eCollaboratorType;
     }
 
+    public EGender geteGender() {
+        return eGender;
+    }
+
+    public void seteGender(EGender eGender) {
+        this.eGender = eGender;
+    }
+
+    public LocalDate getDob() {
+        return dob;
+    }
+
+    public void setDob(LocalDate dob) {
+        this.dob = dob;
+    }
+
     @Override
     public String toString() {
-        return String.format("%s,%s,%s,%s\n", this.id, this.name, this.address, this.phone, this.eCollaboratorType);
+        return String.format("%s;%s;%s;%s;%s;%s\n", this.id, this.name, DateUtils.formatLocalDate(this.dob), this.phone, this.eGender, this.eCollaboratorType);
     }
 }

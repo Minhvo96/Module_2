@@ -2,6 +2,7 @@ package CaseStudy.Service;
 
 import CaseStudy.Model.Editor;
 
+import java.util.Date;
 import java.util.List;
 
 public interface IEditorService {
@@ -15,4 +16,13 @@ public interface IEditorService {
 
     void addEditor(Editor editor);
 
+    float getTotal(String name);
+
+    List<Editor> searchEditorByContent(String keyName);
+
+    List<Editor> searchEditorByYear(int year);
+
+    List<Editor> searchEditorByRangeDate(Date d1, Date d2);
+
+    List<Editor> searchEditorByAuthor(String keyName);
 }
