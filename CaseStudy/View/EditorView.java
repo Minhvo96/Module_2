@@ -35,7 +35,7 @@ public class EditorView {
             System.out.println("|| Nhấn 5: Sắp xếp bài báo theo tiêu chí...    ||");
             System.out.println("|| Nhấn 6: Tìm kiếm bài báo theo tiêu chí...   ||");
             System.out.println("|| Nhấn 7: Tính tiền nhuận bút theo tác giả    ||");
-            System.out.println("|| Nhấn 8: Thoát khỏi chương trình             ||");
+            System.out.println("|| Nhấn 8: Thoát khỏi Menu Quản lý Báo chí     ||");
             System.out.println("=================================================");
 
             int actionMenu = Integer.parseInt(scanner.nextLine());
@@ -109,6 +109,7 @@ public class EditorView {
                     break;
                 case 7:
                     getTotalByAuthor();
+                    break;
                 case 8:
                     checkActionMenu = false;
                     break;
@@ -238,6 +239,7 @@ public class EditorView {
                     System.out.println("ID bài báo này không tồn tại!");
                 } else {
                     ieditorService.deleteEditorById(idEditorDelete);
+                    System.out.println("Đã xóa bài báo với ID là " + idEditorDelete + " thành công!");
                 }
             }
         } while (continueDeleting);
@@ -261,6 +263,7 @@ public class EditorView {
         inputAddEditor(editor);
         ieditorService.addEditor(editor);
         showEditors(ieditorService.getAllEditors());
+        System.out.println("Đã thêm bài báo mới thành công!");
     }
     private void inputAddEditor(Editor editor) {
         editor.setId(System.currentTimeMillis() % 1000);
@@ -273,13 +276,15 @@ public class EditorView {
         editor.setCreateAt(createAt);
     }
     private void inputEditor(Editor editorEdit) {
-        while (true) {
-            System.out.println("Chọn mục bạn muốn sửa:\n");
+        boolean continueEditing = true;
+
+        while (continueEditing) {
+            System.out.println("Chọn mục bạn muốn biên tập lại:\n");
             System.out.println("Chọn 1. Sửa tên chuyên mục.");
             System.out.println("Chọn 2. Sửa tiêu đề.");
             System.out.println("Chọn 3. Sửa tên tác giả.");
             System.out.println("Chọn 4. Sửa nội dung.");
-            System.out.println("Chọn 5. Quay trở về Menu ban đầu.");
+            System.out.println("Chọn 5. Không biên tập tiếp nữa.");
 
             int actionMenuField = Integer.parseInt(scanner.nextLine());
             switch (actionMenuField) {
@@ -296,7 +301,7 @@ public class EditorView {
                     inputContent(editorEdit, INPUT_EDITOR_EDIT);
                     break;
                 case 5:
-
+                    continueEditing = false;
                     break;
                 default:
                     System.out.println("Nhập không đúng, vui lòng nhập lại!");
@@ -306,6 +311,7 @@ public class EditorView {
             Date createAt = new Date();
             editorEdit.setCreateAt(createAt);
         }
+        showEditors(ieditorService.getAllEditors());
     }
     private void inputContent(Editor editor, int ACTION) {
         String strAction = getStrAction(ACTION);

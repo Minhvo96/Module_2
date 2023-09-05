@@ -1,6 +1,5 @@
 package MidtermExam.View;
 
-import CaseStudy.Model.Editor;
 import MidtermExam.Model.ERole;
 import MidtermExam.Model.Egender;
 import MidtermExam.Model.User;
@@ -14,8 +13,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-
-import static Demo.ProductManager.fileName;
 
 public class UserView {
     private Scanner scanner = new Scanner(System.in);

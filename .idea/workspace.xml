@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfd5b691-9550-49ad-9e5c-89c81a29c2e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Exam_1/src/main/java/Exam/MD2/BT1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DeleteElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/DeleteElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Data/CollaboratorsData" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Data/CollaboratorsData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Data/EditorData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Data/EditorData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/View/CollaboratorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/View/CollaboratorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/View/EditorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/View/EditorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/View/ViewerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/View/ViewerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/Data/CollaboratorsData" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/Data/CollaboratorsData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/Data/EditorData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/Data/EditorData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/CollaboratorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/EditorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/out/production/CaseStudy/CaseStudy/View/ViewerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Data/CollaboratorsData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Data/EditorData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Model/Collaborator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Model/ECollaboratorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Model/Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/CollaboratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/CollaboratorServiceServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/EditorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/EditorServiceServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/ICollaboratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Service/IEditorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/Utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/View/CollaboratorView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/View/EditorView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/CaseStudy/View/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/Model/Egender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/Model/Egender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/Service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/Service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/View/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_1/src/main/java/MidtermExam/View/UserView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QuBWLoDUwhIyj91RCStcF0A7wM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CodeGym_Module/Module_2/CaseStudy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfd5b691-9550-49ad-9e5c-89c81a29c2e2" name="Changes" comment="" />
+      <created>1686193618525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686193618525</updated>
+      <workItem from="1686193619685" duration="43000" />
+      <workItem from="1687309797893" duration="2942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

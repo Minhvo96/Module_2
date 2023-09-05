@@ -1,0 +1,5 @@
+1,Nhân,28 Nguyễn Tri Phương,NAM,USER,12/12/2012
+2,Trung,27 Hà Nội,NAM,USER,12/12/2012
+3,Thạch,28 Nguyễn Huệ,NAM,USER,12/12/2012
+4,Tuấn,28 Nguyễn Thiện Thuật,NAM,USER,12/12/2012
+5,Công,28 Tố Hữu,NAM,USER,12/12/2012

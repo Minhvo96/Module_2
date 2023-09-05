@@ -154,6 +154,7 @@ public class CollaboratorView {
                     System.out.println("ID của Cộng tác viên/Phóng viên này không tồn tại!");
                 } else {
                     icollaboratorService.deleteCollaboratorById(idCollaboratorDelete);
+                    System.out.println("Đã xóa thông tin Cộng tác viên/Phóng viên thành công!");
                 }
             }
         } while (continueDeleting);
@@ -172,6 +173,7 @@ public class CollaboratorView {
             System.out.println("Cộng tác viên/Phóng viên này không tồn tại!");
         }
         showCollaborators(icollaboratorService.getAllCollaborators());
+        System.out.println("Đã sửa thông tin Cộng tác viên/Phóng viên thành công!");
     }
 
     private void addCollaboratorView() {
@@ -196,6 +198,7 @@ public class CollaboratorView {
         inputCollaborator(INPUT_COLLABORATOR_ADD, collaborator);
         icollaboratorService.addCollaborator(collaborator);
         showCollaborators(icollaboratorService.getAllCollaborators());
+        System.out.println("Đã thêm Cộng tác viên/Phóng viên thành công!");
     }
 
     private void inputCollaborator(int ACTION, Collaborator collaborator) {

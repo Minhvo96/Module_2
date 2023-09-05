@@ -2,7 +2,7 @@ package MidtermExam.Model;
 
 public enum Egender {
 
-    NAM(1, "Nam"), Nữ(2, "Nữ");
+    Nam(1, "Nam"), Nữ(2, "Nữ");
 
     private long id;
     private String name;

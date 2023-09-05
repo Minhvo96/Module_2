@@ -25,12 +25,13 @@ public class ViewerView {
             checkActionMenu = true;
 
             System.out.println("=================================================");
-            System.out.println("|| Chào mừng bạn đến với Tòa soạn báo CodeGym  ||");
+            System.out.println("|| Chào mừng bạn đến với Tòa soạn báo Tuổi Già ||");
             System.out.println("|| ------------------------------------------- ||");
             System.out.println("|| Nhấn 1: Xem toàn bộ danh sách các bài báo   ||");
             System.out.println("|| Nhấn 2: Sắp xếp bài báo theo tiêu chí...    ||");
             System.out.println("|| Nhấn 3: Tìm kiếm bài báo theo tiêu chí...   ||");
             System.out.println("|| Nhấn 4: Quay trở lại Menu trước             ||");
+            System.out.println("|| Nhấn 5: Thoát khỏi Tòa soạn                 ||");
             System.out.println("=================================================");
 
             int actionMenu = Integer.parseInt(scanner.nextLine());
@@ -95,6 +96,10 @@ public class ViewerView {
                     break;
                 case 4:
                     isReturningToMainMenu = true;
+                    break;
+                case 5:
+                    System.out.println("Xin chào tạm biệt và hẹn gặp lại!");
+                    System.exit(5);
                     break;
                 default:
                     System.out.println("Nhập không đúng, vui lòng nhập lại!");

@@ -1,9 +1,7 @@
 package CaseStudy.Model;
 
 import CaseStudy.Utils.DateUtils;
-
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Collaborator {
     private long id;
